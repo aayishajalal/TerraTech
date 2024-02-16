@@ -4,7 +4,7 @@ const Button = () => {
   return (
     <>
       <button className="text-base  px-3 py-2.5 bg-cyan-500 rounded-md text-white ">
-        <Link href="http://www.google.com">View Dashboard</Link>
+        <Link href="#">View Dashboard</Link>
       </button>
     </>
   );

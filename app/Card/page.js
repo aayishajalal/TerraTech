@@ -4,7 +4,15 @@ const page = () => {
   return (
     <>
       <div>
-        <div className="border-8 w-96 min-h-96"></div>
+        <div>
+          <video controls autoplay loop muted>
+            <source
+              src="https://ik.imagekit.io/690kne5m6/pronalysis-video.mp4?updatedAt=1708063998921"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
       </div>
     </>
   );
